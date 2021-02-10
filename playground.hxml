@@ -1,0 +1,10 @@
+-cp tests
+-main Playground
+-js bin/playground/js/index.js
+-dce full
+
+-lib genes
+-lib coconut.genes
+-lib coconut.react-dom
+
+-D analyzer-optimize
