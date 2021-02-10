@@ -13,3 +13,7 @@ function render() '
 	<coconut.genes.ViewLoader renderView=${MyView -> (<MyView/>)}/>
 ';
 ```
+
+## Run Example Code
+
+`yarn && yarn test`
