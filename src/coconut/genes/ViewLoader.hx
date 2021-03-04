@@ -28,4 +28,4 @@ class ViewLoader extends View {
 }
 
 @:fromHxx(transform = coconut.genes.ViewLoader.processRenderer(_))
-typedef RenderView = () -> Promise<RenderResult>;
+private typedef RenderView = () -> Promise<RenderResult>;
